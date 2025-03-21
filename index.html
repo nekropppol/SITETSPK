@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Пункт Милосердия</title>
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&family=Inter:wght@700&display=swap" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
-
     <header class="header">
         <h1 class="logo">ПУНКТ МИЛОСЕРДИЯ</h1>
         <nav class="nav">
@@ -21,19 +26,12 @@
             </ul>
         </nav>
     </header>
-
     <main class="main">
         <div class="hand-container">
             <img src="./img/ruka.png" alt="Рука с сердцем" class="hand">
         </div>
         <a href="#" class="donate-btn">Пожертвовать</a>
     </main>
-
-    <footer class="footer">
-        <div class="wave"></div>
-    </footer>
-
-
     <section class="hero">
         <div class="hero__container">
             <h1 class="hero__title">НАМ 20 лет!</h1>
@@ -55,66 +53,502 @@
             </div>
             <p class="hero__text">
                 <span class="highlight">Более 20 лет спасаем</span> жизни детей.<br>
-                В 2025 году Благотворительному фонду исполняется <span class="highlight">20 лет.</span>
-            </p>
-            <p class="hero__bold-text">ЗА ЭТО ВРЕМЯ МЫ ПОМОГЛИ БОЛЕЕ <span class="highlight">3500 ДЕТЯМ.</span></p>
+                В 2025 году Благотворительному фонду исполняется <span class="highlight">20 лет.</span><br><br>
+                ЗА ЭТО ВРЕМЯ МЫ ПОМОГЛИ БОЛЕЕ <span class="highlight">3500 ДЕТЯМ.
+            </p> 
         </div>
     </section>
-
-
-
-     
-     
-</main>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <script src="./scripts.js"></script>        
-
-    <main class="container">
+    <main class="projects_container">
         <h1 class="main-title">Совместные проекты</h1>
-        
-        
         <section class="project-card">
-            <div class="project-header">
-                <h2 class="project-title">РОССИЯ 1</h2>
-                
-                <div class="project-image">
-                    <img src="./img/logo-rossiya-1 1.png" alt="РОССИЯ 1" class="responsive-image">
-                </div>
-            </div>
-            <p class="project-description">1 июня к Международному Дню защиты детей благотворительный фонд "ПУНКТ МИЛОСЕРДИЯ" совместно с ВГТРК привлекло внимание людей к добрым делам других людей, которые от всего сердца помогают тяжелобольным детям. Такие поступки делают нас немного добрее и отзывчивее, развивают чувство радости и удовлетворения от помощи другим.</p>
+            <img src="./img/logo-rossiya-1 1.png" alt="РОССИЯ 1" class="responsive-image">
+            <p class="project-description">1 июня к Международному Дню защиты детей благотворительный фонд "<span>ПУНКТ МИЛОСЕРДИЯ</span>" совместно с ВГТРК привлекло внимание людей к добрым делам других людей, которые от всего сердца помогают тяжелобольным детям. Такие поступки делают нас немного добрее и отзывчивее, развивают чувство радости и удовлетворения от помощи другим.</p>
         </section>
-
         <hr class="divider">
-
-       
         <section class="project-card">
-            <div class="project-header">
-                <h2 class="project-title">Первые</h2>
-                
-                <div class="project-image">
-                    <img src="./img/WmYJGSRvtcQ 1.png" alt="Первые" class="responsive-image">
-                </div>
-            </div>
-            <p class="project-description">Наш благотворительный фонд является официальным партнером "Движения первых" — это уникальная программа по воспитанию и становления личности, активного и ответственного молодёжного сообщества, которому важны уважение к традициям и культуре народов России! Вместе с организаторами мероприятия мы радуем юных участников различными сюрпризами и активностями, создаём игровые площадки, чтобы дети могли получить по-настоящему яркие эмоции от фестиваля, и рассказываем им о возможности участия каждого человека в благотворительности, в спасении детских жизней.</p>
+            <img src="./img/WmYJGSRvtcQ 1.png" alt="Первые" class="responsive-image">
+            <p class="project-description"><span>Наш благотворительный фонд</span> является официальным партнером "Движения первых" — это уникальная программа по воспитанию и становления личности, активного и ответственного молодёжного сообщества, которому важны уважение к традициям и культуре народов России! Вместе с организаторами мероприятия мы радуем юных участников различными сюрпризами и активностями, создаём игровые площадки, чтобы дети могли получить по-настоящему яркие эмоции от фестиваля, и рассказываем им о возможности участия каждого человека в благотворительности, в спасении детских жизней.</p>
         </section>
-
         <hr class="divider">
-
-       
         <section class="project-card">
-            <div class="project-header">
-                <h2 class="project-title">Forbes</h2>
-                
-                <div class="project-image">
-                    <img src="./img/Forbes 1.png" alt="Forbes" class="responsive-image">
-                </div>
-            </div>
-            <p class="project-description">ПУНКТ МИЛОСЕРДИЯ публикует на страницах Forbes информацию о детях, нуждающихся в срочной оплате лечения, и делится историями детей, которым уже оказана помощь. Благодаря читателям Forbes, становится все больше детей, получивших лечение в лучших больницах Российской Федерации и зарубежных клиниках.</p>
+            <img src="./img/Forbes 1.png" alt="Forbes" class="responsive-image">
+            <p class="project-description"><span>ПУНКТ МИЛОСЕРДИЯ</span> публикует на страницах Forbes информацию о детях, нуждающихся в срочной оплате лечения, и делится историями детей, которым уже оказана помощь. Благодаря читателям Forbes, становится все больше детей, получивших лечение в лучших больницах Российской Федерации и зарубежных клиниках.</p>
         </section>
     </main>
-    
+    <section class="partnerBlock">
+        <img class="grayWafe" src="./img/Group 14.svg" alt="">
+        <div class="partners">
+            <img src="./img/парнер1.png" alt="">
+            <img src="./img/парнер2.png" alt="">
+            <img src="./img/парнер3.png" alt="">
+            <img src="./img/парнер4.png" alt="">
+            <img src="./img/парнер5.png" alt="">
+            <img src="./img/парнер6.png" alt="">
+            <img src="./img/парнер7.png" alt="">
+            <img src="./img/партнер12.png" alt="">
+            <img src="./img/парнер8.png" alt="">
+            <img src="./img/парнер9.png" alt="">
+            <img src="./img/парнер10.png" alt="">
+            <img src="./img/парнер11.png" alt="">
+            <img src="./img/парнер12.png" alt="">
+        </div>
+    </section>
+    <section class="work">
+        <h2>Наглядность работы</h2>
+        <div class="workBlocks">
+            <div class="otchet">
+                <div class="text">
+                    <h3>Отчёт о поступлениях</h3>
+                    <p>17.03.2025</p>
+                </div>
+                <div class="blocks">
+                    <div class="block">
+                        <p>ООО “Кристалл”</p>
+                        <p>250 000 ₽</p>
+                    </div>
+                    <div class="block">
+                        <p>Система быстрых платеж...</p>
+                        <p>35 000 ₽</p>
+                    </div>
+                    <div class="block">
+                        <p>+7******0909</p>
+                        <p>5 000 ₽</p>
+                    </div>
+                    <div class="block">
+                        <p>8(***)***0909</p>
+                        <p>10 000 ₽</p>
+                    </div>
+                    <div class="block">
+                        <p>Банковская карта</p>
+                        <p>15 000 ₽</p>
+                    </div>
+                    <div class="block">
+                        <p>Банковская карта</p>
+                        <p>5 000 ₽</p>
+                    </div>
+                    <div class="block">
+                        <p>Тинькофф</p>
+                        <p>12 000 ₽</p>
+                    </div>
+                    <div class="block">
+                        <p>Система быстрых платеж...</p>
+                        <p>5 000 ₽</p>
+                    </div>
+                </div>
+                <div class="view">
+                    <p>Посмотреть все отчеты</p>
+                    <img src="./img/arrow.svg" alt="">
+                </div>
+            </div>
+            <div class="uHelp">
+                <h3>Вы помогли им:</h3>
+                <div class="deti">
+                    <img src="./img/ребенок1.png" alt="">
+                    <img src="./img/ребенок2.png" alt="">
+                    <img src="./img/ребенок3.png" alt="">
+                    <img src="./img/ребенок4.png" alt="">
+                    <img src="./img/ребенок5.png" alt="">
+                    <img src="./img/ребенок6.png" alt="">
+                    <img src="./img/ребенок7.png" alt="">
+                    <img src="./img/ребенок8.png" alt="">
+                    <img src="./img/ребенок9.png" alt="">
+                </div>
+            </div>
+            <div class="news">
+                <div class="text">
+                    <h3>Новости</h3>
+                    <p>18.03.2025</p>
+                </div>
+                <div class="blocks">
+                    <div class="block">
+                        <h4>Бутаков Андрей</h4>
+                        <p>В этом году Андрея положили в больницу, чтобы под наркозом осмотреть глаза</p>
+                    </div>
+                    <div class="block">
+                        <h4>Субботин Ян</h4>
+                        <p>В феврале у Яна состоялось сложное обследование. Результаты отличные, мальчику назначили...</p>
+                    </div>
+                    <div class="block">
+                        <h4>Комарова Снежана</h4>
+                        <p>Сейчас Снежана активно готовится к 1 классу. Девочка занимается чтением и математикой, играет.</p>
+                    </div>
+                </div>
+                <div class="view">
+                    <p>Все новости</p>
+                    <img src="./img/arrow.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <img class="grayWafe" src="./img/Group 14.svg" alt="">
+    </section>
+    <div class="online">
+        <h1 class="title">онлайн перевод</h1>
+        <div class="online_container">
+            <div class="block">
+                <p class="block_title">СПОСОБ ОПЛАТЫ</p>
+                <div class="boxs">
+                    <div class="box active ">
+                        <div class="circle"></div>
+                        <div class="content">
+                            <img src="./img/visa.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle"></div>
+                        <div class="content">
+                            <img src="./img/sber.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle"></div>
+                        <div class="content">
+                            <img src="./img/tinka.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle"></div>
+                        <div class="content">
+                            <img src="./img/sbp.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle"></div>
+                        <div class="content">
+                            <img src="./img/u.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <p class="block_title">СУММА ПОЖЕРТВОВАНИЯ</p>
+                <div class="boxs">
+                    <div class="box">
+                        <div class="content">350&nbsp;₽</div>
+                    </div>
+                    <div class="box active">
+                        <div class="content">500&nbsp;₽</div>
+                    </div>
+                    <div class="box">
+                        <div class="content">1000&nbsp;₽</div>
+                    </div>
+                    <div class="box">
+                        <div class="content">5000&nbsp;₽</div>
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <p class="block_title">ТИП ПЛАТЕЖЕЙ</p>
+                <div class="boxs">
+                    <div class="box active ">
+                        <div class="circle"></div>
+                        <div class="content">
+                            Единовременный
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle"></div>
+                        <div class="content">
+                            Ежемесячный
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <p class="block_title">ЦЕЛИ ПОЖЕРТВОВАНИЯ</p>
+                <p class="text">На благотворительную деятельность</p>
+            </div>
+            <div class="block">
+                <p class="block_title">КОНТАКТНЫЕ ДАННЫЕ</p> 
+                <form>
+                    <div class="inputs">
+                        <input type="text" placeholder="Благотворитель">
+                        <input type="text" placeholder="E-mail">
+                    </div>
+                    <input id="checkboxanon" type="checkbox" class="checkbox">
+                    <label for="checkboxanon" class="checkbox_label">Анонимно</label>
+                </form>
+            </div>
+            <div class="send">
+                <input id="checkboxprime" type="checkbox" class="checkbox">
+                <label for="checkboxprime" class="checkbox_label">Я принимаю условия публичной оферты и даю согласие на обработку персональных данных</label>
+                <button>Хочу помочь</button>
+            </div>
+        </div>
+    </div>
+    <section class="detiBlockWafe">
+        <div class="detiBlock"> 
+            <div class="inputBlocks">
+                <input type="text" placeholder="Поиск по имени ребёнка / Диагноза">
+                <div class="blocks">
+                    <div class="block">
+                        <img src="./img/бигребенок1.png" alt="">
+                        <div class="text">
+                            <div class="title">
+                                <p>19.03.2025 </p>
+                                <h4>Ермакова Таисия</h4>
+                            </div>
+                            <p>Таисия чувствует себя то хорошо,то не очень, но всё же продолжаетлечение только с оптимизмом.</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <img src="./img/бигребенок2.png" alt="">
+                        <div class="text">
+                            <div class="title">
+                                <p>19.03.2025 </p>
+                                <h4>Антонова София</h4>
+                            </div>
+                            <p>София продолжает подготовку кэкзаменам. Иногда у девочки
+                                сильно падает давление, и это...</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <img src="./img/бигребенок3.png" alt="">
+                        <div class="text">
+                            <div class="title">
+                                <p>19.03.2025 </p>
+                                <h4>Южанин Роман</h4>
+                            </div>
+                            <p>У Ромы всё хорошо. Учится он надому, так как 2 года назад у мальчика случился рецидив.</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <img src="./img/бигребенок4.png" alt="">
+                        <div class="text">
+                            <div class="title">
+                                <p>19.03.2025 </p>
+                                <h4>Лукьянов Магомед</h4>
+                            </div>
+                            <p>Фонд перечислил 4.928.000,00 рублей на закупку препарата”Блинцито”.</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <img src="./img/бигребенок5.png" alt="">
+                        <div class="text">
+                            <div class="title">
+                                <p>19.03.2025 </p>
+                                <h4>Горлова Виктория</h4>
+                            </div>
+                            <p>Фонд перечислил 3.966.885,00рублей на закупку медицинскихпрепаратов.</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <img src="./img/бигребенок6.png" alt="">
+                        <div class="text">
+                            <div class="title">
+                                <p>19.03.2025 </p>
+                                <h4>Позднякова Анастасия</h4>
+                            </div>
+                            <p>Анастасия часто болеет ОРВИ,так какиммунитет ещё ослаблен. Не обошлось без госпитализации.</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <img src="./img/бигребенок7.png" alt="">
+                        <div class="text">
+                            <div class="title">
+                                <p>19.03.2025 </p>
+                                <h4>Бубеков Лев</h4>
+                            </div>
+                            <p>Фонд перечислил 31.228.,00 рублей на закупку препарата”Месна-целл”.</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <img src="./img/бигребенок8.png" alt="">
+                        <div class="text">
+                            <div class="title">
+                                <p>19.03.2025 </p>
+                                <h4>Сочнев Сергей</h4>
+                            </div>
+                            <p>Практически все последствиярецидива у Сергея устранены:нет новых очагов, а старые...</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <img src="./img/бигребенок9.png" alt="">
+                        <div class="text">
+                            <div class="title">
+                                <p>19.03.2025 </p>
+                                <h4>Кравченко Эльвира</h4>
+                            </div>
+                            <p>Эльвире нужны дополнительныеоперации: безымянные пальцыпо-прежнему остаются деформ...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="otchetDonat">
+                <div class="otchet">
+                    <div class="text">
+                        <h3>Отчёт о поступлениях</h3>
+                        <p>17.03.2025</p>
+                    </div>
+                    <div class="blocks">
+                        <div class="block">
+                            <p>ООО “Кристалл”</p>
+                            <p>250 000 ₽</p>
+                        </div>
+                        <div class="block">
+                            <p>Система быстрых платеж...</p>
+                            <p>35 000 ₽</p>
+                        </div>
+                        <div class="block">
+                            <p>+7******0909</p>
+                            <p>5 000 ₽</p>
+                        </div>
+                        <div class="block">
+                            <p>8(***)***0909</p>
+                            <p>10 000 ₽</p>
+                        </div>
+                        <div class="block">
+                            <p>Банковская карта</p>
+                            <p>15 000 ₽</p>
+                        </div>
+                        <div class="block">
+                            <p>Банковская карта</p>
+                            <p>5 000 ₽</p>
+                        </div>
+                        <div class="block">
+                            <p>Тинькофф</p>
+                            <p>12 000 ₽</p>
+                        </div>
+                        <div class="block">
+                            <p>Система быстрых платеж...</p>
+                            <p>5 000 ₽</p>
+                        </div>
+                    </div>
+                    <div class="view">
+                        <p>Посмотреть все отчеты</p>
+                        <img src="./img/arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="donat">
+                    <div class="inputBlock">
+                        <p>Благотворитель</p>
+                        <input class="input" type="text" placeholder="Анонимно">
+                    </div>
+                    <div class="blocks">
+                        <div class="block">
+                            <p>250</p>
+                        </div>
+                        <div class="block2">
+                            <p>500</p>
+                        </div>
+                        <div class="block2">
+                            <p>1000</p>
+                        </div>
+                    </div>
+                    <div class="inputBlock">
+                        <p>Назначение платежа</p>
+                        <div class="input">
+                            <p>Пожертвование</p>
+                        </div>
+                    </div>
+                    <div class="inputBlock">
+                        <p>E-mail для квитанции</p>
+                        <input class="input" type="text" placeholder="Указать e-mail">
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox">
+                        <p>Я принимаю условия публичной оферты и даю согласие на обработку персональных данных</p>
+                    </div>
+                    <button>
+                        Помочь с карты
+                    </button>
+                </div>
+            </div>
+        </div>
+        <img class="grayWafe rotate" src="./img/Group 14.svg" alt="">
+    </section>
+    <section class="team">
+        <h2>Команда</h2>
+        <div class="blocks">
+            <div class="block">
+                <p>Учредитель</p>
+                <p>Орлов Александр Владимирович</p>
+                <p>mercypoint01@mail.ru</p>
+                <p>Выполнение обязанностейисполнительного органа управленияФонда: осуществления руководстватекущей деятельностью, представлениеего интересов.</p>
+            </div>
+            <div class="block">
+                <p>Правление</p>
+                <p>Шарымов Алексей Валерьевич</p>
+                <p>Щепин Сергей Викторович</p>
+                <p>mercypoint01@mail.ru</p>
+                <p>Определение приоритетныхнаправлений деятельности Фонда,проверка формирования,использования и контроля имущества.</p>
+            </div>
+            <div class="block">
+                <p>Попечительский совет</p>
+                <p>Романов Андрей Владимирович</p>
+                <p>mercypoint01@mail.ru</p>
+                <p>Контроль за деятельностью, порядкомисполнения принятых всеми органами управления решений.</p>
+            </div>
+            <div class="block">
+                <p>Исполнительный директор</p>
+                <p>Галактионова Евгения Александровна</p>
+                <p>mercypoint01@mail.ru</p>
+                <p>Руководство текущей деятельностью,поиск новых направлений развития,постановка и контроль выполненияприоритетных задач командой Фонда.</p>
+            </div>
+            <div class="block">
+                <p>Отдел координации и сопровожденияподопечных</p>
+                <p>mercypoint01@mail.ru</p>
+                <p>Согласование процессов оказанияпомощи между Фондом, клиниками иподопечными. Координация,консультирование и согласование всехдокументальных и техническихмоментов в процессе открытияблаготворительной программы, еёреализации и подведения итогов.</p>
+            </div>
+            <div class="block">
+                <p>Юридический отдел и бухгалтерия</p>
+                <p>mercypoint01@mail.ru</p>
+                <p>Проверка документов всехподопечных, контрагентов, а также медицинских учреждений напредварительном этапе согласования, в процессе реализацииблаготворительной программы и после её использования. Проверка иобеспечения своевременной оплатылечения подопечных Фонда.</p>
+            </div>
+            <div class="block">
+                <p>PR-отдел</p>
+                <p>mercypoint01@mail.ru</p>
+                <p>Поддержка официальных страницФонда в социальных сетях, а такжеинформационных блогов и колонок напартнёрских интернет-ресурсах. Поиск и релазиация новых подходов кразвитию Фонда, поиск партнёров иработа с ними.</p>
+            </div>
+            <div class="block">
+                <p>Отдел технической поддержки</p>
+                <p>mercypoint01@mail.ru</p>
+                <p>Обеспечение бесперебойной работысайты Фонда, своевременноеобновление и постоянная работа надулучшенеием всех элементов структуруы. Техничская поддержка платежей.Поддержка информационной безопасности, гарантия банковской тайны и защита персональных данных благотворителей.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <img class="punkt" src="./img/пункт .png" alt="">
+        <div class="block">
+            <div class="title">
+                <img src="./img/home.svg" alt="">
+                <h3>О ФОНДЕ</h3>
+            </div>
+            <div class="text">
+                <p>Миссия</p>
+                <p>Фундаментальные направления</p>
+                <p>Совместные проекты</p>
+                <p>Принципы</p>
+                <p>Наглядность работы</p>
+                <p>Больницы партнёры</p>
+                <p>Благодарности от родителей</p>
+                <p>Динамика развития и отчёты</p>
+                <p>Команда</p>
+                <p>Документы</p>
+                <p>Реквизиты</p>
+                <p>Контакты</p>
+            </div>
+        </div>
+        <div class="block">
+            <div class="title">
+                <img src="./img/help.svg" alt="">
+                <h3>КАК ПОМОЧЬ</h3>
+            </div>
+            <div class="text">
+                <p>Онлайн перевод</p>
+                <p>СМС с телефона</p>
+                <p>Банковский перевод</p>
+                <p>Другие способы</p>
+                <p>Юридическим лицам</p>
+            </div>
+        </div>
+        <div class="block">
+            <img src="./img/soc.png" alt="">
+            <img class="soc2" src="./img/soc2.png" alt="">
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./scripts.js"></script>        
+    <script src="./js/main.js"></script>
 </body>
 </html>
 

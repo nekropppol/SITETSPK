@@ -1,7 +1,7 @@
 const swiper = new Swiper(".swiper", {
     loop: true,  // Бесконечный цикл
     direction: "horizontal",  // Горизонтальный слайдер
-    slidesPerView: 3,  // Показывать 3 слайда в ряд
+    slidesPerView: 1,  // Показывать 3 слайда в ряд
     spaceBetween: 20,  // Отступ между слайдами
     pagination: {
         el: ".swiper-pagination",
@@ -17,10 +17,10 @@ const swiper = new Swiper(".swiper", {
     },
     breakpoints: {
         1024: {
-            slidesPerView: 3
+            slidesPerView: 1
         },
         768: {
-            slidesPerView: 2
+            slidesPerView: 1
         },
         480: {
             slidesPerView: 1
